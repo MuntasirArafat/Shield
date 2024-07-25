@@ -1,6 +1,6 @@
 # Shield V 1.1
 
-![Shield Logo](path/to/logo.png) <!-- Replace with the actual path to your logo -->
+![Shield Logo](https://github.com/MuntasirArafat/Shield/blob/main/config/web/images/banner.png) <!-- Replace with the actual path to your logo -->
 
 Shield V 1.1 is a tool developed to manage and change IP addresses using Tor and display IP information automatically. This README will guide you through the installation, usage, and features of Shield V 1.1.
 
