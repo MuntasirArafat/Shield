@@ -44,7 +44,7 @@ Upon running the tool, you will see a banner and some initial setup messages. Yo
 
 The tool will change your IP address using Tor and display the new IP information.
 
-##Example Output
+## Example Output
 
 ```bash
 [INFO] Connecting to Tor...
@@ -56,7 +56,7 @@ The tool will change your IP address using Tor and display the new IP informatio
 [INFO] Country: Exampleland
 [INFO] ISP: ExampleISP
 ```
-##Uninstallation
+## Uninstallation
 If you need to uninstall Shield V 1.1, run the following command:
 
 ```bash
@@ -64,7 +64,7 @@ sudo python3 install_uninstall.py
 ```
 Then, select the uninstallation option when prompted. This will remove the tool and restore the original web folder from the backup.
 
-##Support
+## Support
 
 If you encounter any issues or have questions, please visit the GitHub repository and open an issue.
 
