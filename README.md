@@ -40,7 +40,7 @@ shield
 ```
 Upon running the tool, you will see a banner and some initial setup messages. You can configure the time interval for changing IPs and the number of IP changes to perform.
 
-##Changing IPs
+## Changing IPs
 
 The tool will change your IP address using Tor and display the new IP information.
 
