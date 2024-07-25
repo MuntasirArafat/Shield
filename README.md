@@ -19,10 +19,14 @@ Follow these steps to install Shield V 1.1:
     git clone https://github.com/MuntasirArafat/Shield.git
     cd Shield
     ```
+2. **Add  permissions  script**:
 
-2. **Run the installation script**:
+ ```bash
+   chmod +x installer.py
+```
+4. **Run the installation script in root mode**:
     ```bash
-    sudo python3 install_uninstall.py
+    sudo python3 installer.py
     ```
 
    This script will:
@@ -60,7 +64,7 @@ The tool will change your IP address using Tor and display the new IP informatio
 If you need to uninstall Shield V 1.1, run the following command:
 
 ```bash
-sudo python3 install_uninstall.py
+sudo python3 installer.py
 ```
 Then, select the uninstallation option when prompted. This will remove the tool and restore the original web folder from the backup.
 
