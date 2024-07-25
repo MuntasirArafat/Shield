@@ -68,7 +68,7 @@ Then, select the uninstallation option when prompted. This will remove the tool 
 
 If you encounter any issues or have questions, please visit the GitHub repository and open an issue.
 
-Enjoy using Shield V 1.1! Developed by Muntasir Arafat.
+Enjoy using Shield V 1.1! Developed by <a href="https://github.com/MuntasirArafat">Muntasir Arafat</a>.
 ```bash
 
 +--------------------------------------------------------------+
