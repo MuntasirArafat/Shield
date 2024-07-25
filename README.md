@@ -17,7 +17,9 @@ Follow these steps to install Shield V 1.1:
 1. **Download the repository**:
     ```bash
     git clone https://github.com/MuntasirArafat/Shield.git
-    cd Shield
+    ```
+    ```bash
+       cd Shield
     ```
 2. **Add  permissions  script**:
 
