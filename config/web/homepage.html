@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi Shield with Tor</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="info-section">
+          <div>
+            <div id="ip-address" class="info" style="color: #fa542a">
+              *********
+            </div>
+            <div class="infolabel">PUBLIC IP ADDRESS</div>
+          </div>
+          <div>
+            <div id="isp-hostname" class="info" style="color: #a0a5eb">
+              *********
+            </div>
+            <div class="infolabel">ISP OR HOSTNAME</div>
+          </div>
+        </div>
+
+        <div class="time-location">
+          <div style="text-align: center">
+            <h1 id="time">*********</h1>
+            <span id="country">*********</span>/<span id="city">*********</span>
+          </div>
+          <div class="links">
+            <a href="https://www.kali.org/tools" target="_blank" class="tab">
+              <div class="imgbase">
+                <img
+                  src="./images/kali.svg"
+                  alt="Kali Tools"
+                  style="width: 50px"
+                />
+              </div>
+              <p class="mt-2">Kali Too..</p>
+            </a>
+            <a href="https://crackstation.net" target="_blank" class="tab">
+              <div class="imgbase">
+                <img
+                  src="./images/hash.png"
+                  alt="CrackStation"
+                  style="width: 30px"
+                />
+              </div>
+              <p class="mt-2">Cracks..</p>
+            </a>
+            <a href="https://iplogger.org" target="_blank" class="tab">
+              <div class="imgbase">
+                <img
+                  src="./images/ip.webp"
+                  alt="IP Logger"
+                  style="width: 30px"
+                />
+              </div>
+              <p class="mt-2">iplogger</p>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <img src="./images/logo.png" alt="Shield Logo" class="logo" />
+        <h2 class="title"><b>SHIELD</b></h2>
+        <form
+          id="search-form"
+          action="https://www.google.com/search"
+          method="GET"
+          class="search-form"
+        >
+          <div class="search-bar">
+            <img src="./images/logo.png" alt="Shield icon" class="icon" />
+            <input
+              type="text"
+              name="q"
+              placeholder="Search the web privately"
+            />
+            <svg
+              height="30"
+              viewBox="0 0 100 100"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m79.5 74.1-16.6-16.5c3.4-4.7 5.1-10.7 4.2-17.1-1.5-10.7-10.2-19.2-21.1-20.2-14.7-1.5-27.2 11-25.7 25.8 1 10.7 9.5 19.6 20.2 21.1 6.4.9 12.3-.9 17.1-4.2l16.6 16.6c.7.7 1.9.7 2.6 0l2.6-2.6c.8-.9.8-2.1.1-2.9zm-51.8-30.4c0-8.8 7.2-16.1 16.1-16.1s16.1 7.2 16.1 16.1-7.2 16.1-16.1 16.1-16.1-7.1-16.1-16.1z"
+                fill="#fff"
+              />
+            </svg>
+          </div>
+        </form>
+      </main>
+
+      <section class="news-section">
+        <!-- Articles will be dynamically inserted here -->
+      </section>
+
+      <footer class="footer">
+        <p>
+          Developed by
+          <a href="https://github.com/MuntasirArafat" target="_blank"
+            ><b>MuntasirArafat</b></a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
